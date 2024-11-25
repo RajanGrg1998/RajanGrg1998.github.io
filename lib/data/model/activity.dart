@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// activity
 class Activity {
   String? title;
   final String name;
