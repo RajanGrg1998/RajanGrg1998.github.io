@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/presentation/utils/extensions/layout_adapter_ex.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/layout_adapter_ex.dart';
 
 extension WidgetEx on Widget {
   Padding addPadding({required EdgeInsetsGeometry edgeInsets}) {

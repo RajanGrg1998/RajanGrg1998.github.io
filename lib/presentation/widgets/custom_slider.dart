@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
 
 class CustomSlider extends AnimatedWidget {
   CustomSlider({

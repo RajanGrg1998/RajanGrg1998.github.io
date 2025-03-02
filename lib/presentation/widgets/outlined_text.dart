@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+// ignore_for_file: deprecated_member_use
 
+import 'package:flutter/material.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 import '../configs/configs.dart';
 
 class OutlinedText extends StatelessWidget {

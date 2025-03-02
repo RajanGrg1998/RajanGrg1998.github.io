@@ -1,6 +1,8 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 
 class RoundedImageContainer extends StatelessWidget {
   RoundedImageContainer({

@@ -1,5 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
 
 const bold = FontWeight.w700;
 const semiBold = FontWeight.w600;
@@ -32,19 +34,21 @@ extension ThemeEx on BuildContext {
       backgroundColor: kTransparent,
       elevation: s0,
       titleTextStyle: Theme.of(this).textTheme.labelLarge!.copyWith(
-        fontWeight: FontWeight.w700,
-      ),
+            fontWeight: FontWeight.w700,
+          ),
       foregroundColor: kBlack,
       toolbarHeight: s100,
     );
   }
-  InputDecorationTheme inputDecorationTheme(){
+
+  InputDecorationTheme inputDecorationTheme() {
     return const InputDecorationTheme(
       filled: true,
       fillColor: kTransparent,
       alignLabelWithHint: true,
     );
   }
+
   TextTheme textTheme() {
     return Theme.of(this).textTheme.copyWith(
           headlineLarge: headlineLarge,

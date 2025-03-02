@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/constant_sizes.dart';
+import 'package:rajan_gurung/presentation/configs/constant_sizes.dart';
 
 enum SlidePosition { left, right, bottom, top }
 
@@ -13,7 +13,8 @@ class SlideRouteTransition extends PageRouteBuilder {
   }) : super(
             transitionDuration:
                 position == SlidePosition.top ? duration500 : duration2000,
-            reverseTransitionDuration: position == SlidePosition.top ? duration500 : duration2000,
+            reverseTransitionDuration:
+                position == SlidePosition.top ? duration500 : duration2000,
             pageBuilder: (BuildContext context, Animation<double> animation,
                 Animation<double> secondaryAnimation) {
               return enterWidget;

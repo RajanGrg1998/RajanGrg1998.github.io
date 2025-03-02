@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/animated_text_slide_box_transition.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/animated_text_slide_box_transition.dart';
 
 import '../../../configs/configs.dart';
 import '../widgets/animated_background_circle.dart';
@@ -167,17 +167,21 @@ class _ProjectListPageState extends State<ProjectListPage>
               ),
             ),
         <Widget>[
-          const Expanded(child: noSpace,),
+          const Expanded(
+            child: noSpace,
+          ),
           SlideTransition(
             position: projectSlideAnimation,
             child: HorizontalProjectList(
               controller: _projectRotateController,
               scrollController: _scrollController,
             ),
-          ).addSizedBox(
-            // height: context.percentHeight(context.adaptive(s50, s60)),
-            width: double.maxFinite,
-          ).addExpanded(flex: 2),
+          )
+              .addSizedBox(
+                // height: context.percentHeight(context.adaptive(s50, s60)),
+                width: double.maxFinite,
+              )
+              .addExpanded(flex: 2),
           FadeTransition(
             opacity: _slideOpacityController,
             child: ProjectScrollIcons(
@@ -185,10 +189,9 @@ class _ProjectListPageState extends State<ProjectListPage>
               cardWidth: cardWidth,
             ),
           ).addAlign(alignment: Alignment.centerRight),
-        ]
-            .addColumn(
-              mainAxisSize: MainAxisSize.min,
-            ),
+        ].addColumn(
+          mainAxisSize: MainAxisSize.min,
+        ),
       ].addStack().addSizedBox(
             width: context.screenWidth,
             height: context.screenHeight,

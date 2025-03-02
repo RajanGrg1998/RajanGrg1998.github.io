@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "yelwinoo" "\0"
+            VALUE "FileDescription", "rajan_gurung" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "yelwinoo" "\0"
+            VALUE "InternalName", "rajan_gurung" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "yelwinoo.exe" "\0"
-            VALUE "ProductName", "yelwinoo" "\0"
+            VALUE "OriginalFilename", "rajan_gurung.exe" "\0"
+            VALUE "ProductName", "rajan_gurung" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

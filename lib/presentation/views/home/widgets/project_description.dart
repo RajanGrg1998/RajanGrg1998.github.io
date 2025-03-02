@@ -1,8 +1,7 @@
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 class ProjectDescription extends StatelessWidget {
   const ProjectDescription({

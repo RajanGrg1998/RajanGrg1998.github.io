@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 
 import 'animated_text_slide_box_transition.dart';
 
@@ -27,7 +27,12 @@ class IconLabel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return <Widget>[
-      FadeTransition(opacity: _fadeAnimation, child: Icon(icon,size: context.adaptive(s18, s24),)),
+      FadeTransition(
+          opacity: _fadeAnimation,
+          child: Icon(
+            icon,
+            size: context.adaptive(s18, s24),
+          )),
       horizontalSpaceMassive,
       AnimatedTextSlideBoxTransition(
         controller: controller,

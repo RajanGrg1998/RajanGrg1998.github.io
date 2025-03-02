@@ -1,10 +1,9 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 import 'animated_slide_box.dart';
 
-/// credit to [https://davidcobbina.com] for his amazing artwork 👏🏻👏🏻
-/// I love this animation so much
 class AnimatedTextSlideBoxTransition extends StatefulWidget {
   const AnimatedTextSlideBoxTransition({
     Key? key,

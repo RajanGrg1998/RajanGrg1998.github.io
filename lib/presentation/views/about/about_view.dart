@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/wrapper.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/views/wrapper.dart';
 
 import 'subviews/background_story.dart';
 import 'subviews/overall.dart';

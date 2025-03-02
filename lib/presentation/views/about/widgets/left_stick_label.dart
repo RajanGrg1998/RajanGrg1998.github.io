@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/presentation/configs/configs.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 class LeftStickLabel extends StatelessWidget {
   const LeftStickLabel(
@@ -18,8 +18,8 @@ class LeftStickLabel extends StatelessWidget {
           controller: textController,
           coverColor: kPrimary,
           textStyle: Theme.of(context).textTheme.bodySmall?.copyWith(
-            fontWeight: FontWeight.w700,
-          ),
+                fontWeight: FontWeight.w700,
+              ),
         ),
       ).addPadding(
         edgeInsets: context.symmetricPadding(

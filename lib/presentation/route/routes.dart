@@ -1,15 +1,13 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/about/about_view.dart';
-import 'package:yelwinoo/presentation/views/certificates/certificates_view.dart';
-import 'package:yelwinoo/presentation/views/contact_me/contact_me_view.dart';
-import 'package:yelwinoo/presentation/views/experience/experience_view.dart';
-import 'package:yelwinoo/presentation/views/home/home_page.dart';
-import 'package:yelwinoo/presentation/views/project_details/project_details_view.dart';
-import 'package:yelwinoo/presentation/views/projects/projects_view.dart';
+import 'package:rajan_gurung/data/model/showcase_project.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/views/about/about_view.dart';
+import 'package:rajan_gurung/presentation/views/certificates/certificates_view.dart';
+import 'package:rajan_gurung/presentation/views/contact_me/contact_me_view.dart';
+import 'package:rajan_gurung/presentation/views/experience/experience_view.dart';
+import 'package:rajan_gurung/presentation/views/home/home_page.dart';
+import 'package:rajan_gurung/presentation/views/project_details/project_details_view.dart';
+import 'package:rajan_gurung/presentation/views/projects/projects_view.dart';
 
 import 'route_transitions.dart';
 

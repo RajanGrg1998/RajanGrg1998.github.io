@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 import 'awards_and_activities.dart';
@@ -150,7 +150,7 @@ class _BackgroundStoryState extends State<BackgroundStory>
             )
             .addPadding(
               edgeInsets: context.symmetricPercentPadding(
-                hPercent: context.adaptive(s3,s8),
+                hPercent: context.adaptive(s3, s8),
               ),
             ),
       ].addStack().addPadding(

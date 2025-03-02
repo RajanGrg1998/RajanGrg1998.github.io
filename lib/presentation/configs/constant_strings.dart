@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names, unused_element
+
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../data/model/activity.dart';
@@ -14,11 +16,10 @@ import 'constant_colors.dart';
 import 'constant_icons.dart';
 import 'constant_sizes.dart';
 
-/// constant strings are prefixed with [ks]
 const String ksFontFamily = "ShantellSans";
 
-const String ksFlutterDeveloperAnd = "Android/IOS Developer &";
-const String ksAiMlEnthusiast = "Front-End Developer";
+const String ksFlutterDeveloperAnd = "Full Stack &";
+const String ksAiMlEnthusiast = "Flutter Developer";
 const String ksAiEnthusiast = "ai enthusiast";
 const String ksTechNerd = "a  tech  nerd";
 const String ksFlutterDev = "mobile  dev";
@@ -27,9 +28,12 @@ const String ksIntrovert = "an introvert";
 const String ksIm = "I'm";
 const String ksIntro = """
   Hi, I'm Rajan Gurung!
-    - a passionate mobile developer
-    - a current student from George Brown College
+    - +3 years of experience
+    - proficient in React Native
+    - open to work
   """;
+
+// - a current student from George Brown College
 const String ksSeeMyWork = "See my work";
 const String ksBrowseProjects = "Browse My Projects";
 const String ksWhatElse =
@@ -57,9 +61,9 @@ const String ksSendMessage = 'Send Message';
 
 const String ksSlash = "/";
 const String ksLetsWork = "Let's work together!";
-const String ksFreelanceAvailability = "I'm available for Freelancing";
+const String ksFreelanceAvailability = "I'm available for collaboration";
 const String ksContactInfo = "- Contact Info";
-const String ksWorkEmail = "rajan.gurung@georgebrown.ca";
+const String ksWorkEmail = "rajang2055@gmail.com";
 const String ksWorkPhone = "+1 4372383556";
 const String ksCreditTo = "";
 const String ksDavidCobbina = "";
@@ -69,14 +73,14 @@ const String ksJuliusGWebsite = "";
 const String ksBuildUsing = "";
 const String ksWithMuch = "";
 const String ksCC = "©️ 2024 Rajan";
-const String ksYoung = "When I was young, I was a kid!";
-const String ksNobody = "I'm NOBODY";
+const String ksYoung = "When I was young, I was a computer nerd!";
+const String ksNobody = "I'm Full Stack Developer";
 const String ksSpecialization =
     "I specialize in Mobile Technologies and highly passionate about developing quality applications.";
 const String ksWhoAmI = 'Who Am I?';
 const String ksWhatILove = "What I Love To Do";
 const String ksBriefAboutMe =
-    "Hi! I'm a Front-end and Mobile Application developer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
+    "Hi! I'm a full-stack developer with +3 years of experience in cross-platform mobile application development. I specialize in building scalable and efficient applications, leveraging my expertise in Dart, TypeScript, Node.js, Express, and MongoDB with TypeORM. Additionally, I have proficiency in Kotlin and Swift for native mobile development, as well as frontend technologies such as React, Next.js, Tailwind, HTML, and CSS. My passion lies in creating seamless user experiences and optimizing application performance across platforms.";
 const String ksMyLife = "";
 const String ksProfession =
     "I started working as a Mobile Developer since 2019. Later, I fell in love with it. I'm eager to contribute in this community.";
@@ -154,12 +158,12 @@ final List<Experience> ksExperiences = [
     company: "Brand Builder Pvt Ltd, Pokhara, Nepal",
     position: "Lead Front-End Developer ",
     responsibilities: [
-      "Debugged and optimized front-end code, reducing load times by 18% and fixing critical bugs.",
-      "Integrated front-end code with server-side logic to create dynamic, responsive web pages.",
-      "Developed reusable components, streamlining development for future projects by 25%.",
-      "Led the redesign of multiple websites, improving navigation and user experience, resulting in a 15% increase in user retention",
-      "Directed and conducted design processes from research to implementation, ensuring projects met customer needs and timelines.",
-      "Provided end-user training on content management systems, enabling staff to perform updates, reducing developer intervention by 40%.",
+      "Led full-stack development, optimizing application performance and improving UX",
+      "Built scalable backend services using Node.js and MongoDB, ensuring seamless data management",
+      "Integrated front-end with backend APIs, improving app responsiveness and reducing latency",
+      "Designed and built reusable components, streamlining development workflow and reducing redundancy",
+      "Conducted code reviews and provided mentorship to junior developers to improve overall team efficiency",
+      "Improved accessibility and user experience, resulting in a 15% increase in user retention",
     ],
     type: JobType.fullTime,
     startDate: DateTime(2022, 09),
@@ -169,11 +173,10 @@ final List<Experience> ksExperiences = [
     company: "inGrails Pvt. Ltd, Lalitpur, Nepal",
     position: "Flutter Developer",
     responsibilities: [
-      "Developed responsive web pages optimized for various devices, improving load times by 20%.",
-      "Refactored the existing codebase, increasing maintainability and reducing bugs by 15%.",
-      "Debugged and enhanced application functionality, leading to a 10% improvement in user satisfaction.",
-      "Collaborated closely with cross-functional teams, delivering projects 10% ahead of schedule.",
-      "Implemented best practices for coding standards, improving code quality across the team.",
+      "Developed high-performance mobile applications using Flutter, ensuring smooth animations and UI responsiveness",
+      "Debugged and optimized existing code, improving app efficiency and reducing crashes",
+      "Collaborated with designers and backend developers for seamless integration and feature enhancements",
+      "Implemented localization and multi-language support to expand app accessibility",
     ],
     type: JobType.fullTime,
     startDate: DateTime(2022, 04),
@@ -196,10 +199,10 @@ final List<Experience> ksExperiences = [
       company: "Freelancing",
       position: "Web Development & Application Development",
       responsibilities: [
-        " Designed and implemented user interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and responsiveness, resulting in a 20% increase in client satisfaction.",
-        "Developed and deployed mobile applications for iOS and Android using Flutter, achieving over 5,000 downloads in the first 3 months.",
-        "Proactively identified and resolved UI/UX issues, improving user satisfaction ratings by 25%.",
-        "Coordinated with clients to gather requirements, deliver timely project updates, and ensure alignment with project goals.",
+        "Designed and developed full-stack applications using React Native for frontend and Node.js with Express and MongoDB for backend",
+        "Created intuitive UI/UX designs, improving user engagement and satisfaction ratings",
+        "Developed and deployed cross-platform applications, ensuring scalability and reliability for high-demand industries",
+        "Provided maintenance and updates for existing apps, optimizing performance and user experience",
       ],
       type: JobType.remote,
       startDate: DateTime(2020, 09),
@@ -330,30 +333,30 @@ final List<SocialMedia> ksSocialMedia = [
       size: s18,
     ),
   ),
-  SocialMedia(
-    link: ksMediumLink,
-    icon: FaIcon(
-      FontAwesomeIcons.medium,
-      color: kSecondary,
-      size: s18,
-    ),
-  ),
-  SocialMedia(
-    link: ksStackoverflowLink,
-    icon: FaIcon(
-      FontAwesomeIcons.stackOverflow,
-      color: kSecondary,
-      size: s18,
-    ),
-  ),
-  SocialMedia(
-    link: ksDiscordLink,
-    icon: FaIcon(
-      FontAwesomeIcons.discord,
-      color: kSecondary,
-      size: s18,
-    ),
-  ),
+  // SocialMedia(
+  //   link: ksMediumLink,
+  //   icon: FaIcon(
+  //     FontAwesomeIcons.medium,
+  //     color: kSecondary,
+  //     size: s18,
+  //   ),
+  // ),
+  // SocialMedia(
+  //   link: ksStackoverflowLink,
+  //   icon: FaIcon(
+  //     FontAwesomeIcons.stackOverflow,
+  //     color: kSecondary,
+  //     size: s18,
+  //   ),
+  // ),
+  // SocialMedia(
+  //   link: ksDiscordLink,
+  //   icon: FaIcon(
+  //     FontAwesomeIcons.discord,
+  //     color: kSecondary,
+  //     size: s18,
+  //   ),
+  // ),
 ];
 
 const String _FLUTTER = 'Flutter';

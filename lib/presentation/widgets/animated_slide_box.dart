@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 
 /// credit to [https://davidcobbina.com] for his amazing artwork 👏🏻👏🏻
 const double hiddenFactor = 2.0;
@@ -55,7 +55,8 @@ class AnimatedSlideBox extends AnimatedWidget {
         top: hiddenFactor,
         left: hiddenFactor,
         child: Container(
-          width: isVertical ? width - (hiddenFactor * 2) : visibleAnimation.value,
+          width:
+              isVertical ? width - (hiddenFactor * 2) : visibleAnimation.value,
           height:
               isVertical ? visibleAnimation.value : height - (hiddenFactor * 2),
           color: boxColor,

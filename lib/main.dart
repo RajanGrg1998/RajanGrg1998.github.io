@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:layout/layout.dart';
 import 'package:url_strategy/url_strategy.dart';
-import 'package:yelwinoo/injection.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/injection.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 
 import 'firebase_options.dart';
 import 'presentation/route/routes.dart';

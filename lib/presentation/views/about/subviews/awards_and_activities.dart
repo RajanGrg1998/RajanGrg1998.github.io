@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/activity.dart';
-import 'package:yelwinoo/presentation/route/route_transitions.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/data/model/activity.dart';
+import 'package:rajan_gurung/presentation/route/route_transitions.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 
@@ -75,7 +75,10 @@ class ActivityContainer extends StatelessWidget {
       activity.title != null ? verticalSpaceMedium : noSpace,
       <Widget>[
         <Widget>[
-          Icon(activity.icon,size: context.adaptive(s18, s24),),
+          Icon(
+            activity.icon,
+            size: context.adaptive(s18, s24),
+          ),
           horizontalSpaceMedium,
           Text(
             activity.name,
@@ -87,8 +90,7 @@ class ActivityContainer extends StatelessWidget {
                   fontWeight: FontWeight.w300,
                 ),
           ),
-        ].addWrap(
-        ),
+        ].addWrap(),
         link(context),
       ].addWrap(
         alignment: activity.link == null
@@ -115,7 +117,10 @@ class ActivityContainer extends StatelessWidget {
   Widget link(BuildContext context) {
     if (activity.link != null) {
       return <Widget>[
-        Icon(kiLink,size: context.adaptive(s14,s24),),
+        Icon(
+          kiLink,
+          size: context.adaptive(s14, s24),
+        ),
         horizontalSpaceMedium,
         GestureDetector(
           onTap: () {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/experience.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/data/model/experience.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 import 'three_d_flip.dart';
@@ -93,9 +93,12 @@ class ExperienceStepCard extends StatelessWidget {
                   ),
             ),
             verticalSpaceMedium,
-            Text(experience.position,style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              fontWeight: FontWeight.w600,
-            ),),
+            Text(
+              experience.position,
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
+                  ),
+            ),
             if (experience.type == JobType.remote) const Text("(remote)"),
             verticalSpaceLarge,
             ...experience.responsibilities

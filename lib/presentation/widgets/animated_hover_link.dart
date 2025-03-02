@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/constant_colors.dart';
-import 'package:yelwinoo/presentation/configs/constant_strings.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
-
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 import '../configs/configs.dart';
 
 class AnimatedHoverLink extends AnimatedWidget {

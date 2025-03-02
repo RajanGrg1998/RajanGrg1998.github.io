@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/presentation/route/route_transitions.dart';
-import 'package:yelwinoo/presentation/route/routes.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/views/home/widgets/project_description.dart';
-import 'package:yelwinoo/presentation/views/project_details/project_details_view.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:rajan_gurung/data/model/showcase_project.dart';
+import 'package:rajan_gurung/presentation/route/route_transitions.dart';
+import 'package:rajan_gurung/presentation/route/routes.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/views/home/widgets/project_description.dart';
+import 'package:rajan_gurung/presentation/views/project_details/project_details_view.dart';
+import 'package:rajan_gurung/presentation/widgets/widgets.dart';
 
 import '../../configs/configs.dart';
 

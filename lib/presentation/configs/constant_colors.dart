@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
 
 final Color kPrimary = '#F4F4EF'.toColor();
 final Color kSecondary = '#C7D3B6'.toColor();
@@ -12,7 +12,7 @@ const Color kBlossom = Color(0xFF50B7CD);
 const Color kWhite = Colors.white;
 const Color kBlack = Colors.black;
 const Color kBlack12 = Colors.black12;
-const Color kBlack26  = Colors.black26;
+const Color kBlack26 = Colors.black26;
 const Color kDeepBlack = Color(0xFF1F1E2F);
 final Color kGrey50 = Colors.grey.shade50;
 final Color kGrey100 = Colors.grey.shade100;
