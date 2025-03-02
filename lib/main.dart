@@ -5,7 +5,6 @@ import 'package:layout/layout.dart';
 import 'package:url_strategy/url_strategy.dart';
 import 'package:rajan_gurung/injection.dart';
 import 'package:rajan_gurung/presentation/utils/extensions/extensions.dart';
-
 import 'firebase_options.dart';
 import 'presentation/route/routes.dart';
 import 'presentation/utils/custom_scroll_behaviour.dart';
